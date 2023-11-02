@@ -5,8 +5,21 @@ import java.util.Objects;
 public class CoreCompetency {
 
     private int id;
+
+    public int getId() { //getter for id
+        return id;
+    }
+
     private static int nextId = 1;
     private String value;
+
+    public String getValue() { //getter for value
+        return value;
+    }
+
+    public void setValue(String value) { //setter for value
+        this.value = value;
+    }
 
     public CoreCompetency() {
         this.id = nextId;

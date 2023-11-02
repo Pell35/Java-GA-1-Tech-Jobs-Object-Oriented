@@ -5,12 +5,12 @@ import java.util.Objects;
 public class Employer {
 
     private int id;
-    private static int nextId = 1;
+    private static int nextId = 1;//declares nextId variable
     private String value;
 
     public Employer() {
-        id = nextId;
-        nextId++;
+        id = nextId; //assigns value to id field
+        nextId++; // increments the nextID
     }
 
     public Employer(String value) {
