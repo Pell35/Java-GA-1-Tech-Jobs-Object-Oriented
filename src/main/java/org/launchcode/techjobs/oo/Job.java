@@ -18,6 +18,16 @@ public class Job {
         id = nextId;
         nextId++;
     }
+    //second constructor to call first id field and has five parameters in specific order
+    public Job(String name, Employer employer, Location location, PositionType positionType, CoreCompetency coreCompetency) {
+        this();
+        this.name = name;
+        this.employer = employer;
+        this.location = location;
+        this.positionType = positionType;
+        this.coreCompetency = coreCompetency;
+
+    }
     private String name;
     public String getName() {
         return name;
@@ -63,16 +73,7 @@ public class Job {
         this.coreCompetency = coreCompetency;
     }
 
-    //second constructor to call first id field and has five parameters in specific order
-    public Job(String name, Employer employer, Location location, PositionType positionType, CoreCompetency coreCompetency) {
-        this();
-        this.name = name;
-        this.employer = employer;
-        this.location = location;
-        this.positionType = positionType;
-        this.coreCompetency = coreCompetency;
 
-    }
     //ToString
     @Override
     public String toString() {
