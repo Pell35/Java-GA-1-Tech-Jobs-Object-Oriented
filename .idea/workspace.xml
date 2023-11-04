@@ -4,14 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="Completed Task 5, testTask 2-5 and JobTest all passing.">
-      <change afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/JobField.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/CoreCompetency.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Employer.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Employer.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/Location.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/launchcode/techjobs/oo/PositionType.java" afterDir="false" />
-    </list>
+    <list default="true" id="59ff47a6-ece6-4e2e-b777-6247aa1f282e" name="Changes" comment="Completed Task 6, all test passing except for the 3 on task 5 test due to LineSeparator." />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -77,7 +70,7 @@
     "settings.editor.selected.configurable": "preferences.sourceCode"
   }
 }]]></component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Gradle.Tests in 'org.launchcode.techjobs.oo'">
     <configuration name="JobTest.testToStringHandlesEmptyField" type="GradleRunConfiguration" factoryName="Gradle" temporary="true">
       <ExternalSystemSettings>
         <option name="executionName" />
@@ -220,8 +213,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Gradle.TestTaskSix.testEmployerExtendsJobField" />
         <item itemvalue="Gradle.Tests in 'org.launchcode.techjobs.oo'" />
+        <item itemvalue="Gradle.TestTaskSix.testEmployerExtendsJobField" />
         <item itemvalue="Gradle.TestTaskFive.testToStringHandlesEmptyField" />
         <item itemvalue="Gradle.JobTest.testToStringHandlesEmptyField" />
         <item itemvalue="Gradle.TestTaskFive.testToStringContainsCorrectLabelsAndData" />
@@ -277,7 +270,15 @@
       <option name="project" value="LOCAL" />
       <updated>1699065003100</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Completed Task 6, all test passing except for the 3 on task 5 test due to LineSeparator.">
+      <option name="closed" value="true" />
+      <created>1699068521871</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1699068521871</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -297,7 +298,8 @@
     <MESSAGE value="Completed Task 3, 23 tests now passing. Semicolon on the end of my constructor like this ); { was causing my code to return as needing a method body or abstract label. Due to that I tried multiple things like moving my getters and setters below my constructor, renaming things. Finally after a google search I found the solution." />
     <MESSAGE value="Completed Task 4, testTask 2-4 and JobTest all passing." />
     <MESSAGE value="Completed Task 5, testTask 2-5 and JobTest all passing." />
-    <option name="LAST_COMMIT_MESSAGE" value="Completed Task 5, testTask 2-5 and JobTest all passing." />
+    <MESSAGE value="Completed Task 6, all test passing except for the 3 on task 5 test due to LineSeparator." />
+    <option name="LAST_COMMIT_MESSAGE" value="Completed Task 6, all test passing except for the 3 on task 5 test due to LineSeparator." />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
